@@ -52,10 +52,19 @@ section>form>button{
     margin-top: 4px;
     margin-bottom: 4px;
     padding: auto;
+    cursor: pointer;
+    color:rgb(13, 13, 13);
+}
+section>form>button:hover{
+    display: grid;
+    border-radius: 8px;
+    border: none;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    padding: auto;
     transition: 0.4;
     cursor: pointer;
-    color: lightslategrey;
-
-
-
+    color: black;
+    opacity: 0.6;
+    transition: 0.3s;
 }
