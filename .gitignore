@@ -105,3 +105,6 @@ dist
 
 # Configuracion de Visual Studio Code
 .vscode
+
+# Calculadora de descuentos
+.calculadora-de-descuentos/
