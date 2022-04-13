@@ -4,7 +4,14 @@
 
 ## taller #1: figuras geometricas
 
--primer paso: definir las formulas
--segundo: implementar las formulas en JavaScript
--tercer paso: crear funciones
--cuarto paso: integrar JS con HTML
+- Primer paso: definir las formulas
+- Segundo: implementar las formulas en JavaScript
+- Tercer paso: crear funciones
+- Cuarto paso: integrar JS con HTML
+
+## Taller #2: porcentajer y descuentos
+
+- Primer paso: definir las formulas
+- Segundo paso: implementar las formulas en JavaScript
+- Tercer paso: crear funciones
+- Cuarto paso: integrar JS con HTML
