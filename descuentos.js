@@ -1,5 +1,5 @@
-let precioOriginal = 120;
-let descuento = 18;
+//let precioOriginal = 120;
+//let descuento = 18;
 
 
 function calcularPrecioConDescuentos(precio, descuento) {
@@ -9,9 +9,15 @@ function calcularPrecioConDescuentos(precio, descuento) {
     return precioConDescuento;
 }
 
-//console.log({
-//    precioOriginal,
-//    descuento,
-//    porcentajePrecioConDescuento,
-//    precioConDescuento,
-//});
+function onClickButtonPriceDiscount() {
+    let inputPrice = document.getElementById("InputPrice");
+    let priceValue = inputPrice.Value;
+
+    let inputDiscount = document.getElementById("InputDiscount");
+    let discountValue = inputDiscount.Value;
+
+    let precioConDescuento = calcularPrecioConDescuentos(priceValue, discountValue);
+
+    let resultP = document.getElementById("ResultP");
+    resultP.innerText = "El precio con descuento es: $" + precioConDescuento;
+}
